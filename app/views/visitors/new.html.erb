@@ -1,19 +1,19 @@
-<% content_for :title do %>Foobar Kadigan<% end %>
-<% content_for :description do %>Website of Foobar Kadigan<% end %>
+<% content_for :title do %>Haritz Iturbe<% end %>
+<% content_for :description do %>Haritz Iturbe-ren newsletter-a<% end %>
 <section>
 	<img src="http://lorempixel.com/1170/600/cats/1" alt="">
 </section>
 <section>
 	<div class="column">
-		<h2>Stay in touch.</h2>
+		<h2>Ongi etorri.</h2>
 	</div>
 	<div class="column">
 		<div class="form-centered">
 			<%= simple_form_for @visitor do |f| %>
 				<%= f.error_notification %>
-				<%= f.input :email, label: false, :placeholder => 'Your email address...' %>
+				<%= f.input :email, label: false, :placeholder => 'Zure email helbidea...' %>
 				<br>
-				<%= f.button :submit, "Sign up for the newsletter", :class => "submit" %>
+				<%= f.button :submit, "Izena eman", :class => "submit" %>
 			<% end %>
 		</div>
 	</div>
